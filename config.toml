@@ -7,6 +7,9 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 
+title = "Catatan Harian Abdi"
+description = "Coretan Tinta Emas Pemikiranku."
+
 theme = "simple-dev-blog"
 taxonomies = [ { name = "tags" } ]
 
@@ -17,3 +20,17 @@ highlight_code = false
 
 [extra]
 # Put all your custom variables here
+latest_text = "Baca catatan terbaru saya:"
+
+author = "Abdilbarr"
+
+footer_about = """
+Catatan harian abdi. Ikuti saya di [Instagram](#)
+"""
+
+footer_page = """
+© 2023, all rights reserved
+"""
+not_found_message = """
+Halaman tidak ditemukan... [Kembali?](/)
+"""
